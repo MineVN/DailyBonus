@@ -1,0 +1,136 @@
+# Kích thước gui điểm danh
+gui-size: 36
+
+# Thời gian cách các lần nhận, đơn vị giây
+time-period: 3600
+
+# Gui sẽ óng ánh
+special-days:
+- 7
+- 14
+- 21
+- 28
+- 32   
+
+# Các khoảng thời gian trong ngày
+day:
+  '1':
+    commands:
+    - 'tm give %player% 50'
+    - 'shops load vipcoin 1 %player%'
+    info:
+    - '&f+ &a50 T'
+    perm:
+    - 'vip.default;shops load vipcoin 1 %player%;&6x1 &eVIP Coin'
+    - 'vip.1;shops load vipcoin 1 %player%;&6x1 &eVIP Coin'
+    - 'vip.2;shops load vipcoin 1 %player%;&6x1 &eVIP Coin'
+    - 'vip.3;shops load vipcoin 2 %player%;&6x2 &eVIP Coin (VIP 3)'
+    - 'vip.4;shops load vipcoin 2 %player%;&6x2 &eVIP Coin (VIP 4)'
+    - 'vip.5;shops load vipcoin 3 %player%;&6x3 &eVIP Coin (VIP 5)'
+    - 'vip.6;shops load vipcoin 3 %player%;&6x3 &eVIP Coin (VIP 6)'
+    - 'vip.7;shops load vipcoin 4 %player%;&6x4 &eVIP Coin (VIP 7)'
+    - 'vip.8;shops load vipcoin 4 %player%;&6x4 &eVIP Coin (VIP 8)'
+    - 'vip.9;shops load vipcoin 5 %player%;&6x5 &eVIP Coin (VIP 9)'
+    - 'vip.10;shops load vipcoin 6 %player%;&6x6 &eVIP Coin (VIP 10)'
+  '2':
+    inherit: 1
+  '3':
+    inherit: 1
+  '4':
+    inherit: 1
+  '5':
+    inherit: 1
+  '6':
+    inherit: 1
+  '7':
+    commands:
+    - 'tm give %player% 70'
+    - 'sig load dch5 1 %player%'
+    info:
+    - '&f+ &a70 T'
+    - '&7x1 &aĐá cường hóa V'
+  '8':
+    inherit: 1
+  '9':
+    inherit: 1
+  '10':
+    inherit: 1
+  '11':
+    inherit: 1
+  '12':
+    inherit: 1
+  '13':
+    inherit: 1
+  '14':
+    commands:
+    commands:
+    - 'tm give %player% 70'
+    - 'sig load dch5 2 %player%'
+    - 'sig load bmm2 1 %player%'
+    info:
+    - '&f+ &a70 T'
+    - '&7x2 &aĐá cường hóa V'
+    - '&7x1 &bBùa may mắn II'
+  '15':
+    inherit: 1
+  '16':
+    inherit: 1
+  '17':
+    inherit: 1
+  '18':
+    inherit: 1
+  '19':
+    inherit: 1
+  '20':
+    inherit: 1
+  '21':
+    commands:
+    - 'tm give %player% 70'
+    - 'sig load dch5 2 %player%'
+    - 'sig load bmm2 2 %player%'
+    info:
+    - '&f+ &a70 T'
+    - '&7x2 &aĐá cường hóa V'
+    - '&7x2 &bBùa may mắn II'
+  '22':
+    inherit: 1
+  '23':
+    inherit: 1
+  '24':
+    inherit: 1
+  '25':
+    inherit: 1
+  '26':
+    inherit: 1
+  '27':
+    inherit: 1
+  '28':
+    commands:
+    - 'tm give %player% 100'
+    - 'sig load dch5 3 %player%'
+    - 'sig load bmm2 2 %player%'
+    info:
+    - '&f+ &a100 T'
+    - '&7x3 &aĐá cường hóa V'
+    - '&7x2 &bBùa mắn mắn II'
+  '29':
+    inherit: 1
+  '30':
+    inherit: 1
+  '31':
+    inherit: 1
+  '32':
+    inherit: 1
+  '33':
+    inherit: 1
+  '34':
+    inherit: 1
+  '35':
+    commands:
+    - 'tm give %player% 150'
+    - 'sig load dch5 3 %player%'
+    - 'sig load bmm3 2 %player%'
+    info:
+    - '&f+ &a150 T'
+    - '&7x3 &aĐá cường hóa V'
+    - '&7x2 &bBùa mắn mắn III'

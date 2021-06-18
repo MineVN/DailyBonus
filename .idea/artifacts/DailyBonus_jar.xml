@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DailyBonus:jar">
+    <output-path>$PROJECT_DIR$/../../../../Minecraft/Server/1.16 Test/plugins</output-path>
+    <root id="archive" name="DailyBonus.jar">
+      <element id="module-output" name="DailyBonus" />
+    </root>
+  </artifact>
+</component>

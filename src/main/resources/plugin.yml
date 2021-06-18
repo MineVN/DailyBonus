@@ -1,0 +1,7 @@
+name: DailyBonus
+version: 1.0
+main: kdvn.plugin.dailybonus.main.MainDB
+api-version: 1.13
+commands:
+    diemdanh:
+        description: KeoDeoVN's plugin
